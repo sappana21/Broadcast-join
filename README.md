@@ -38,11 +38,3 @@ A **broadcast join** avoids this by sending a small DataFrame to every executor 
 ├── broadcast_join.py   # Databricks source notebook (regular join vs broadcast join)
 └── README.md
 ```
-
-##  Keywords / Tags
-
-`pyspark` `apache-spark` `databricks` `broadcast-join` `spark-optimization` `big-data` `data-engineering` `sql-joins` `spark-sql` `performance-tuning`
-
-##  Short Description (for GitHub "About" section)
-
-> Demonstrates PySpark broadcast joins vs regular joins in Databricks, with execution plan comparison for performance optimization.
