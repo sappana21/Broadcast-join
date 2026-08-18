@@ -27,7 +27,7 @@ A **broadcast join** avoids this by sending a small DataFrame to every executor 
 
 ##  How to Run
 
-1. Import this notebook into a Databricks workspace (or open it via a linked Databricks Git folder).
+1. Import this notebook into a Databricks workspace.
 2. Attach it to a running cluster.
 3. Run all cells sequentially.
 4. Check the output of `result.explain(True)` to see the difference between the shuffle join and the broadcast join execution plans (look for `BroadcastHashJoin` vs `SortMergeJoin`).
